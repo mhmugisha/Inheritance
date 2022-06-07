@@ -19,19 +19,19 @@ public class Employee {
 		hireDay = LocalDate.of(year, month, day);
 	}
 
-	//Method to get name. (This is because name is private)
+	//Getter Method to get name. (This is because name is private)
 	public String getName() 
 	{
 		return name;
 	}
 	
-	//Method to get salary
+	//Getter Method to get salary
 	public double getSalary() 
 	{
 		return salary;
 	}
 	
-	//Method to return hire date.
+	//Getter Method to return hire date.
 	public LocalDate getHireDay() 
 	{
 		return hireDay;
